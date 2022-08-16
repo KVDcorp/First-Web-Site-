@@ -1,2 +1,2 @@
-# First-Web-Site-
-learning html/css for 2 weeks
+I collaborated with game developer DekaGames
+and wrote a web page for it
