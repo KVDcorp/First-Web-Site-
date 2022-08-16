@@ -1,0 +1,178 @@
+h1 {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+h5 {
+    font-size: 15px;
+    font-style: italic;
+}
+
+h2 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+body {
+    background-image: url(/images/background-papier-blanc-3.jpg);
+    font-family: 'Roboto Condensed', sans-serif;
+    padding: 100px 0;
+}
+
+.container {
+    width: 800px;
+    min-height: 600px;
+    border: 10px solid white;
+    margin: 0 auto;
+    background-color: white
+}
+
+.header {
+    display: flex;
+    height: 150px;
+}
+
+.titleblock {
+    position: relative;
+    color: black;
+    display: flex;
+    width: 60%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    background-color: white;
+    margin-right: 10px;
+}
+
+.userpic {
+    display: flex;
+    width: 40%;
+    height: 100%;
+    overflow: hidden;
+    justify-content: right;
+    align-items: top;
+    font-size: large;
+    padding: 10px
+}
+
+.nav ul {
+    margin: 0;
+}
+
+.nav ul {
+    display: flex;
+    background-color: rgb(230, 230, 230);
+}
+
+.nav li a {
+    padding: 20px;
+    display: flex;
+    text-decoration: none;
+    color: #404040;
+    font-weight: bold;
+    border-right: 1PX SOLID #b9b9b9;
+    transition: background .3s ease;
+}
+
+.nav li a:hover {
+    background-color: rgb(196, 196, 196);
+}
+
+.nav ul li {
+    list-style-type: none;
+}
+
+.allin {
+    display: flex;
+    padding: 20px;
+}
+
+.content {
+    width: 80%;
+    line-height: 20px;
+    flex-direction: row;
+}
+
+.sidebar {
+    width: 20%;
+}
+
+.danger {
+    font-weight: bold;
+}
+
+.more {
+    font-weight: bold;
+    font-size: x-large;
+}
+
+.skills {
+    font-weight: bold;
+    line-height: 30px;
+    list-style-type: circle;
+}
+
+.iconsm {
+    width: 20px;
+    height: 20px;
+    margin-right: 20px;
+    float: left;
+}
+
+.bigico {
+    width: 150px;
+    height: 150px;
+    margin-right: 20px;
+    float: left;
+    clear: right;
+}
+
+.dwnl {
+    width: 140px;
+    height: 40px;
+    margin-right: 20px;
+    float: left;
+}
+
+.underl {
+    width: 500px;
+    height: 2px;
+    margin: 20px 0px;
+}
+
+.cont {
+    margin: 10px;
+    width: 100%;
+}
+
+.main_view {
+    width: 100%;
+    height: 25rem;
+}
+
+.main_view img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.side_view {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.side_view img {
+    width: 9rem;
+    height: 7rem;
+    object-fit: contain;
+    cursor: pointer;
+    margin: 0.5rem;
+}
+
+#footer {
+    bottom: 0;
+    left: 0;
+    text-align: center;
+}
