@@ -1,2 +1,2 @@
 I collaborated with game developer DekaGames
-and wrote a web page for it
+and made a web page for him
